@@ -60,7 +60,8 @@ jobs:
           branch: 'main'
           empty: true
           message: ${{ env.COMMIT_MESSAGE }}
-      
+          coauthor_name: ${{ github.event.pull_request.sender.login }}
+          
 #       - name: Push changes in members data
 #         env:
 #           PR_ID:  ${{github.event.pull_request.title}} \#${{github.event.pull_request.number}}
