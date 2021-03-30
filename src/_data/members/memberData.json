@@ -97,5 +97,20 @@
     "twitterUsername": "amartzcoder",
     "websiteUrl": "https://andreamartz.dev/",
     "teams": []
+  },
+  "adiati98": {
+    "login": "adiati98",
+    "id": "MDQ6VXNlcjQ1MTcyNzc1",
+    "url": "https://github.com/adiati98",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/45172775?u=f5b1e073a232933e612369da42c44d62739bb165&v=4",
+    "name": "Ayu Adiati",
+    "company": null,
+    "location": "The Netherlands",
+    "isHireable": false,
+    "bio": "🤓 Life-long learner\r\n👨‍👩‍👧 A wife & a mother \r\n📑 Aiming to be front-end/fullstack web developer ",
+    "bioHTML": "<div><g-emoji class=\"g-emoji\" alias=\"nerd_face\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f913.png\">🤓</g-emoji> Life-long learner\n<g-emoji class=\"g-emoji\" alias=\"family_man_woman_girl\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f469-1f467.png\">👨‍👩‍👧</g-emoji> A wife &amp; a mother \n<g-emoji class=\"g-emoji\" alias=\"bookmark_tabs\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4d1.png\">📑</g-emoji> Aiming to be front-end/fullstack web developer </div>",
+    "twitterUsername": "AdiatiAyu",
+    "websiteUrl": "https://adiati.com",
+    "teams": []
   }
 }
