@@ -23,6 +23,7 @@ jobs:
         with:
           ref: ${{ github.ref }}
           fetch-depth: 0
+          advice.detachedHead: false
 
       # Setup node v 14.x with npm and yarn
       - uses: actions/setup-node@v1
