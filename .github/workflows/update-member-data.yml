@@ -52,15 +52,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Push changes of members data
-        uses: actions-js/push@v1.2
+        uses: github-actions-x/commit@v2.8
         env:
           COMMIT_MESSAGE: 'chore: update membersData.json after merging ${{github.event.pull_request.title}} #${{github.event.pull_request.number}}'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'main'
-          empty: true
-          message: ${{ env.COMMIT_MESSAGE }}
-          coauthor_name: ${{ github.event.pull_request.sender.login }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'main'
+          commit-message: ${{ env.COMMIT_MESSAGE }}
+          
           
 #       - name: Push changes in members data
 #         env:
