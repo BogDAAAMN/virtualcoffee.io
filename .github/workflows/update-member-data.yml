@@ -57,7 +57,7 @@ jobs:
           COMMIT_MESSAGE: 'chore: update membersData.json after merging ${{github.event.pull_request.title}} #${{github.event.pull_request.number}}'
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: 'main'
+          push-branch: ${{ github.ref }}
           commit-message: ${{ env.COMMIT_MESSAGE }}
           
           
