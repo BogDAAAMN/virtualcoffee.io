@@ -59,6 +59,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: ${{ github.ref }}
           commit-message: ${{ env.COMMIT_MESSAGE }}
+          force-add: 'true'
           
           
 #       - name: Push changes in members data
